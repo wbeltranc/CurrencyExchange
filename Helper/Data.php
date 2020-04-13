@@ -50,7 +50,7 @@ class Data extends AbstractHelper
      */
     public function getCurrentExchangeRate()
     {
-        #if ($this->isEnabled()) {
+        if ($this->isEnabled()) {
             $url = $this->getConfigValue('currencyexchange/general/endpoint', null);
             $tokenType = $this->getConfigValue('currencyexchange/general/type_token', null);
             $token = $this->getConfigValue('currencyexchange/general/token', null);
@@ -67,9 +67,9 @@ class Data extends AbstractHelper
             }else{
                 return false;
             }
-        /*} else {
+        } else {
             return "This module is disabled";
-        }*/
+        }
     }
 
     /**
