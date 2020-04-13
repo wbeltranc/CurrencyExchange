@@ -1,5 +1,5 @@
 {
-    "name": "beltranc/module-currencyexchange",
+    "name": "beltranc/currencyexchange",
     "description": "Module to make a query of the appropriate data of the SF43718 series, which returns the exchange rate Pesos to the dollar, from the Banxico API",
     "type": "magento2-module",
     "version": "1.0.0",
