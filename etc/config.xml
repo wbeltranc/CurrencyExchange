@@ -1,0 +1,13 @@
+<?xml version="1.0" ?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Store:etc/config.xsd">
+    <default>
+        <currencyexchange>
+            <general>
+                <enable>1</enable>
+                <endpoint><![CDATA[https://www.banxico.org.mx/SieAPIRest/service/v1/series/SF43718/datos/oportuno]]></endpoint>
+                <token><![CDATA[9a2c652de73fa7a74e9f412220e5d5064e9a51e65fa604e52e3a709edf693866]]></token>
+                <type_token><![CDATA[Bmx-Token]]></type_token>
+            </general>
+        </currencyexchange>
+    </default>
+</config>

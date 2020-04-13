@@ -1,0 +1,23 @@
+{
+    "name": "beltranc/module-currencyexchange",
+    "description": "Module to make a query of the appropriate data of the SF43718 series, which returns the exchange rate Pesos to the dollar, from the Banxico API",
+    "type": "magento2-module",
+    "version": "1.0.0",
+    "license": "OSL-3.0",
+    "authors": [
+        {
+            "name": "Will Beltran",
+            "email": "wbeltran@beltranc.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "BeltranC\\CurrencyExchange\\": ""
+        },
+        "files": [
+            "registration.php"
+        ]
+    }
+}

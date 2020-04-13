@@ -1,0 +1,11 @@
+<?xml version="1.0" ?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Backend:etc/menu.xsd">
+    <menu>
+        <add id="BeltranC_CurrencyExchange::currencyexchange" module="BeltranC_CurrencyExchange"
+             resource="Magento_Backend::content" sortOrder="51" title="BeltranC"/>
+        <add id="BeltranC_CurrencyExchange::currencyexchange_configuration" title="Configuration Currency Exchange"
+             module="BeltranC_CurrencyExchange" sortOrder="10" parent="BeltranC_CurrencyExchange::currencyexchange"
+             action="adminhtml/system_config/edit/section/currencyexchange"
+             resource="BeltranC_CurrencyExchange::currencyexchange_configuration"/>
+    </menu>
+</config>
